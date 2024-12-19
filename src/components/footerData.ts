@@ -21,15 +21,6 @@ const footerData = [
       },
     ],
   },
-  {
-    heading: "Contact",
-    links: [
-      {
-        path: "contact",
-        name: "Contact",
-      },
-    ],
-  },
 ];
 
 export default footerData;
