@@ -1,8 +1,3 @@
-import { useState } from "react";
-import { useParams } from "react-router-dom";
-import Button from "./Button";
-import quizData from "../data/quizData";
-
 const Test = () => {
   // const { id } = useParams();
   // const [currentQuestion, setCurrentQuestion] = useState(0);

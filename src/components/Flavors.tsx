@@ -5,7 +5,7 @@ import flavorsData from "./flavorsData";
 import Img from "./Img";
 
 const Flavors = () => {
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<HTMLDivElement>(null);
 
   const scrollByAmount = (amount: number) => {
     if (sliderRef.current) {
