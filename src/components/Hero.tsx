@@ -1,6 +1,6 @@
 import Button from "./Button";
-import LPFlavors from "../assets/LP flavors.jpg";
-import Img from "./Img";
+import LPPoster from "../assets/LP-Advertisement-Expanded.jpg";
+import LPVideo from "../assets/21St Video.mp4";
 
 const Hero = () => {
   return (
@@ -12,7 +12,12 @@ const Hero = () => {
           <h1>THE SNACK FOR EVERYONE. ANYONE.</h1>
           <Button className="btn--primary">Explore</Button>
         </div>
-        <Img src={LPFlavors} />
+        <video
+          className="video"
+          controls
+          poster={LPPoster}
+          src={LPVideo}
+        ></video>
       </div>
     </section>
   );

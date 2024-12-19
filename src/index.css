@@ -92,6 +92,13 @@ a {
   }
 }
 
+/* VIDEO */
+
+.video {
+  width: 100%;
+  height: 600px;
+}
+
 /* BLOCKS */
 
 .block {
