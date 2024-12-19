@@ -20,7 +20,7 @@ const NavBar = () => {
       >
         <Logo className="nav__logo" onMenuActive={() => setMenuActive(false)} />
         <NavLists onMenuActive={() => setMenuActive(false)} />
-        <Link to="quiz">
+        <Link to="quiz" onClick={() => setMenuActive(false)}>
           <Button style="accent" className="btn--sm nav__btn">
             Quiz
           </Button>

@@ -6,7 +6,12 @@ const Languages = () => {
       <h2>Learn how to say popcorn globally</h2>
       <div className="grid languages__grid">
         {languageData.map((data, index) => (
-          <div key={index} className={`language__box language--${index}`}>
+          <div
+            key={index}
+            className={`flex flex--column justify--center align--center language__box language--${
+              index + 1
+            }`}
+          >
             <span className="language__heading">{data.text}</span>
             <span className="language__translation">{data.translation}</span>
           </div>

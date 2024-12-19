@@ -7,10 +7,6 @@ const navlistData = [
     name: "Flavors",
     path: "flavors",
   },
-  {
-    name: "Contact Us",
-    path: "contact",
-  },
 ];
 
 export default navlistData;
