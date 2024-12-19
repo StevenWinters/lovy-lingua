@@ -19,7 +19,7 @@ const Flavors = () => {
       <div className="align--center container flavors__container">
         <div className="flex flex--column flavors__content">
           <h2>Try Our Flavors</h2>
-          <p>Explore endless ways to customize your gameplay!</p>
+          <p>Explore our different flavors!</p>
           <Link to="/flavors">
             <Button className="flavors__btn">Check In</Button>
           </Link>
