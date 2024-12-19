@@ -876,6 +876,118 @@ a {
   padding-bottom: 35vh;
 }
 
+/* LEARN */
+
+.learn__section {
+  background: linear-gradient(to bottom, #893183, #1e020a);
+  color: #fff;
+  position: relative;
+}
+
+.learn__section::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #1c1414, #130e07);
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.learn {
+  position: relative;
+  z-index: 2;
+}
+
+.learn h1 {
+  text-shadow: 0 4px 4px var(--color-text);
+}
+
+.learn__circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #e567f0;
+  width: 50%;
+  height: 100vh;
+  border-radius: 100%;
+  z-index: 1;
+  filter: blur(200px);
+  z-index: 1;
+}
+
+.learn__popcorn {
+  max-width: 1000px;
+  margin: 0 -30rem;
+}
+
+@media screen and (min-width: 768px) {
+  .learn {
+    flex-direction: row;
+  }
+}
+
+/* LANGUAGES */
+
+.languages {
+  z-index: 1;
+  position: relative;
+}
+
+.languages__grid {
+  gap: 2rem;
+  grid-template-areas:
+    "one two three four"
+    "five six seven seven"
+    "eight nine ten .";
+}
+
+.language__box {
+  background-color: red;
+  padding: 5rem;
+  font-size: 2.5rem;
+}
+
+.language--1 {
+  grid-area: one;
+}
+
+.language--2 {
+  grid-area: two;
+}
+
+.language--3 {
+  grid-area: three;
+}
+
+.language--4 {
+  grid-area: four;
+}
+
+.language--5 {
+  grid-area: five;
+}
+
+.language--6 {
+  grid-area: six;
+}
+
+.language--7 {
+  grid-area: seven;
+}
+
+.language--8 {
+  grid-area: eight;
+}
+
+.language--9 {
+  grid-area: nine;
+}
+
+.language--10 {
+  grid-area: ten;
+}
+
 /* FOOTER */
 
 footer {

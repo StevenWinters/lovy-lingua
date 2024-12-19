@@ -1,6 +1,6 @@
 import Button from "./Button";
 import LPPoster from "../assets/LP-Advertisement-Expanded.jpg";
-import LPVideo from "../assets/21St Video.mp4";
+import LPVideo from "../assets//LP-Commercial.mp4";
 
 const Hero = () => {
   return (
