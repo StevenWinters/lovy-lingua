@@ -3,6 +3,7 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import Button from "./Button";
 import flavorsData from "./flavorsData";
 import Img from "./Img";
+import { Link } from "react-router-dom";
 
 const Flavors = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -19,7 +20,9 @@ const Flavors = () => {
         <div className="flex flex--column flavors__content">
           <h2>Try Our Flavors</h2>
           <p>Explore endless ways to customize your gameplay!</p>
-          <Button className="flavors__btn">Check In</Button>
+          <Link to="/flavors">
+            <Button className="flavors__btn">Check In</Button>
+          </Link>
           <div className="flex flavors__swap">
             <FaArrowAltCircleLeft
               size={40}
