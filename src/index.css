@@ -532,6 +532,7 @@ a {
 }
 
 .quiz__flex {
+  gap: 2rem;
   margin-bottom: 2.5rem;
 }
 
@@ -549,6 +550,7 @@ a {
 .quiz__translation {
   font-weight: 700;
   font-style: italic;
+  font-size: 1.6rem;
 }
 
 .quiz__question,
@@ -564,7 +566,11 @@ a {
 }
 
 .quiz__choice:hover {
-  filter: brightness(85%);
+  filter: brightness(90%);
+}
+
+.quiz__choice:active {
+  background-color: #e0e0e0;
 }
 
 .quiz__language {
@@ -622,6 +628,10 @@ a {
 
   .quiz__btn {
     padding: 1rem 7rem;
+  }
+
+  .quiz__translation {
+    font-size: 2.2rem;
   }
 }
 
@@ -746,6 +756,12 @@ a {
   margin-bottom: 2rem;
   box-shadow: 0 4px 4px #00000094;
   color: #fff;
+  transition: 0.3s ease;
+}
+
+.selection__quiz:hover {
+  box-shadow: 0 0 0;
+  transform: translateY(5px);
 }
 
 .selection--1 {
