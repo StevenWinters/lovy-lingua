@@ -34,7 +34,11 @@ const Test = () => {
               </h3>
               <Button
                 className="btn--sm"
-                onClick={() => window.location.reload()}
+                onClick={() => {
+                  setCurrentQuestion(0);
+                  setScore(0);
+                  setShowScore(false);
+                }}
               >
                 Restart Quiz
               </Button>

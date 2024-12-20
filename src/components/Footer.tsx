@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="footer__copyright">
-          Copyright © 2023. Powered by the PWU ICT/HE/ABM Students.
+          Copyright © 2024. Powered by the PWU ICT/HE/ABM Students.
         </p>
       </div>
     </footer>
