@@ -662,25 +662,13 @@ a {
 /* FLAVORS */
 
 .flavors {
-  padding-bottom: 30vh;
-  z-index: 2;
-  position: relative;
-}
-
-.flavors::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
   background: linear-gradient(
     to top right,
     rgb(255, 166, 166, 0.6),
     rgb(255, 166, 0, 0.2)
   );
   z-index: -1;
-  padding-top: 35vh;
+  padding-bottom: 30vh;
 }
 
 .flavors__container {
@@ -1120,13 +1108,24 @@ a {
 /* FOOTER */
 
 footer {
+  background: linear-gradient(
+    to top right,
+    rgb(255, 166, 166, 0.6),
+    rgb(255, 166, 0, 0.2)
+  );
   background: url("assets/footer.png");
-  z-index: 2;
-  background-size: cover;
+  z-index: 1;
   margin-top: -35vh;
+  pointer-events: none;
+  background-size: cover;
   color: #fff;
   position: relative;
   text-align: center;
+}
+
+.footer__logo,
+.footer__link {
+  pointer-events: auto;
 }
 
 .footer__logo {
